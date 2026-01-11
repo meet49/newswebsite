@@ -173,18 +173,19 @@ const ArticlePage = () => {
                         </section>
 
                         {/* Sources */}
-                        <section className="mb-8 bg-gray-50 p-6 rounded-lg">
-                            <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                <BookOpen className="w-6 h-6 text-highlight" />
-                                Sources & Further Reading
-                            </h3>
-                            <ul className="list-disc list-inside text-gray-600 space-y-2">
-                                <li>Official government press releases and statements</li>
-                                <li>Verified news agency reports (Reuters, AP, PTI)</li>
-                                <li>Expert analysis from leading think tanks</li>
-                                <li>Academic research and peer-reviewed studies</li>
-                            </ul>
-                        </section>
+                        {article.content.sources && article.content.sources.length > 0 && (
+                            <section className="mb-8 bg-gray-50 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
+                                    <BookOpen className="w-6 h-6 text-highlight" />
+                                    Sources & Further Reading
+                                </h3>
+                                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                                    {article.content.sources.map((source, index) => (
+                                        <li key={index}>{source}</li>
+                                    ))}
+                                </ul>
+                            </section>
+                        )}
 
                         {/* Author Notes */}
                         {article.content.authorNotes && (
