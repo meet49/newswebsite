@@ -26,10 +26,10 @@ const AboutUs = () => {
                         <p className="text-gray-700 leading-relaxed mb-4">
                             ReadNShare was founded with a simple yet powerful mission: to provide readers with comprehensive,
                             unbiased news analysis that goes beyond headlines. In an era of information overload and clickbait
-                            journalism, we believe in the power of thoughtful, well-researched reporting.
+                            journalism, we believe in the power of thoughtful, well researched reporting.
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                            We don't just tell you what happened—we explain why it happened, why it matters, and how it impacts
+                            We don't just tell you what happened we explain why it happened why it matters and how it impacts
                             India and the world. Our commitment is to informed citizenship through quality journalism.
                         </p>
                     </section>

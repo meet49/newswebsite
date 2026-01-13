@@ -145,7 +145,7 @@ const PrivacyPolicy = () => {
                             If you have questions about this Privacy Policy or our data practices, please contact us at:
                         </p>
                         <p className="text-gray-700 mt-4">
-                            <strong>Email:</strong> privacy@readnshare.in<br />
+                            <strong>Email:</strong> devlineinfotech@gmail.com<br />
                             <strong>Website:</strong> <a href="/contact" className="text-highlight hover:underline">Contact Page</a>
                         </p>
                     </section>
